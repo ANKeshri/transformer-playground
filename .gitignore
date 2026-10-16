@@ -1,0 +1,24 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Downloaded model and Hugging Face caches
+.cache/
+huggingface/
+**/.cache/huggingface/
+
+# Local tooling and generated files
+.vscode/
+.idea/
+*.log
